@@ -28,7 +28,7 @@ Connect-MicrosoftTeams
 $user=get-aduser -Properties * -Identity $username
 
 #ou der teams-gruppen
-$ou="OU=Teams,OU=Security Groups,OU=_ALL,OU=IAG_Global,DC=peter-wolters,DC=com" #ggf. anpassen
+$ou="OU=Ornder_Der_Sync-OU,DC=contoso,DC=com" #ggf. anpassen
 
 #zu filterndes objekt
 $filter=$user.distinguishedname
